@@ -24,7 +24,8 @@ function Button(){
     }
 
     return(
-        <button onClick={() => handleClick("Joao")} style={styles}>Click me</button>
+        <button onClick={() => 
+            handleClick("Joao")} style={styles}>Click me</button>
     );
 }
 export default Button

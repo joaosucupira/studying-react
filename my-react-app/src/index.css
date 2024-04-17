@@ -100,3 +100,34 @@ h1 {
   background-color: red;
   padding: 10px;
 }
+
+.counter-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin:30px;
+}
+
+.counter-box button {
+  background-color: chocolate;
+  border: none;
+  border-radius: 5px;
+  padding: 10%;
+}
+
+.color-container {
+  margin: 20px;
+  display: flex; flex-direction: column;
+  justify-content: center; align-items: center;
+  gap: 10px;
+}
+
+.color-display {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
