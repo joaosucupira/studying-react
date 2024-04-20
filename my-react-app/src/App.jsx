@@ -7,13 +7,13 @@
 // import Counter from "./Counter";
 // import OnChange from "./OnChange";
 // import ColorPicker from "./ColorPicker";
-import CarObject from "./CarObject.jsx";
+// import CarObject from "./CarObject.jsx";
+import Person from "./Person";
 
 function App() {
-  
   return (
     <>
-      <CarObject/>
+      <Person></Person>
     </>
   );
  }
