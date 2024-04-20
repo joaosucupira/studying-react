@@ -9,12 +9,13 @@
 // import ColorPicker from "./ColorPicker";
 // import CarObject from "./CarObject.jsx";
 // import Person from "./Person";
-import ToDoList from "./Projects/ToDoList";
+// import ToDoList from "./Projects/ToDoList";
+import DigitalClock from "./Projects/DigitalClock";
 
 function App() {
   return (
     <>
-      <ToDoList></ToDoList>
+      <DigitalClock></DigitalClock>
     </>
   );
  }
