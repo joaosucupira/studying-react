@@ -8,12 +8,13 @@
 // import OnChange from "./OnChange";
 // import ColorPicker from "./ColorPicker";
 // import CarObject from "./CarObject.jsx";
-import Person from "./Person";
+// import Person from "./Person";
+import ToDoList from "./Projects/ToDoList";
 
 function App() {
   return (
     <>
-      <Person></Person>
+      <ToDoList></ToDoList>
     </>
   );
  }
