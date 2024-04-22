@@ -36,7 +36,7 @@ function ToDoList() {
     }
     // 4.2 - MOVER TAREFA PARA BAIXO 
     function moveTaskDown(index) {
-        if(index < tasks.length() - 1){ // Se está no fundo, não desce mais
+        if(index < tasks.length - 1){ // Se está no fundo, não desce mais
             const updateTasks = [...tasks];
             [updateTasks[index], updateTasks[index + 1]] = [ updateTasks[index + 1], updateTasks[index]];  
             setTasks(updateTasks);

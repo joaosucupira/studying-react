@@ -1,5 +1,5 @@
 body {
-  background-image: url('assets/stockPhoto.jpg');
+  /* background-image: url('assets/stockPhoto.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  align-items: center;
+  align-items: center; */
 
 }
 
@@ -234,4 +234,9 @@ ol { padding: 0;}
   font-family: monospace;
   text-align: center;
 
+}
+
+.box {
+  padding: 10px;
+  border: 5px solid black;
 }

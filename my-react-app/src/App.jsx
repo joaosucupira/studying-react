@@ -9,13 +9,15 @@
 // import ColorPicker from "./ColorPicker";
 // import CarObject from "./CarObject.jsx";
 // import Person from "./Person";
-// import ToDoList from "./Projects/ToDoList";
-import DigitalClock from "./Projects/DigitalClock";
+import ToDoList from "./Projects/ToDoList";
+// import DigitalClock from "./Projects/DigitalClock";
+// import ComponentA from "./ComponentA.jsx";
 
 function App() {
   return (
     <>
-      <DigitalClock></DigitalClock>
+      {/* <ComponentA></ComponentA> */}
+      <ToDoList></ToDoList>
     </>
   );
  }
